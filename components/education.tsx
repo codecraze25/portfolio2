@@ -8,7 +8,8 @@ import universityLogo from "@/public/university.png";
 import Image from "next/image";
 
 export default function Education() {
-  const { ref } = useSectionInView("Education");
+  // const { ref } = useSectionInView("Education");
+  const { ref } = useSectionInView("Home");
 
   return (
     <motion.section
