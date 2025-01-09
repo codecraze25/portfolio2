@@ -22,7 +22,7 @@ export default function Intro() {
       className="mb-16 sm:mb-0 text-center scroll-mt-[100rem] particles-section pt-28 pb-14 sm:pt-36 sm:pb-18 w-full px-4"
     >
       <ParticleContainer />
-      <div className="flex items-center justify-center">
+      {/* <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -58,18 +58,23 @@ export default function Intro() {
             👋
           </motion.span>
         </div>
-      </div>
+      </div> */}
 
       <motion.h1
-        className="mb-10 mt-4 px-0 sm:px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-white max-w-[50rem] mx-auto"
+        className="mb-10 mt-4 px-0 sm:px-4 text-2xl font-medium !leading-[1.5] sm:text-5xl text-white max-w-[50rem] mx-auto"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Emil.</span> I'm a{" "}
-        <span className="font-bold">software engineer with 8 years of experience.</span>
+        <span className="font-bold">Hello, I'm Emil Hansen.</span><br />
+        <span className="font-bold">I'm a{" "} software engineer with 8 years of experience.</span>
         {/* <span className="font-bold">software engineer</span> at{" "}
         <span className="font-bold">Humanforce</span> in Brisbane. I'm currently working with Laravel, React.js, GraphQL, and AWS. */}
       </motion.h1>
+
+      <motion.div
+        className="mt-16 mb-16 px-0 sm:px-4 text-xl font-medium !leading-[1.5] sm:text-xl text-white max-w-[50rem] mx-auto">
+        Please contact me at <u>emilhansen96@outlook.com</u>
+      </motion.div>
 
       <motion.div
         className="flex flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -86,7 +91,7 @@ export default function Intro() {
         >
           WhatsApp <FaWhatsapp className="opacity-70" />
         </a> */}
-        <a
+        {/* <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
           href="https://github.com/codecraze25"
           target="_blank"
@@ -101,7 +106,7 @@ export default function Intro() {
         >
           <span className="opacity-70">LinkedIn</span>
           <BsLinkedin className="opacity-70" />
-        </a>
+        </a> */}
       </motion.div>
     </section>
   );
