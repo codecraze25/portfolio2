@@ -9,7 +9,7 @@ import "./globals.css";
 const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Emil Hansen | Software Engineer",
+  title: "Vitalii Ovodenko | Software Engineer",
   description: "Software engineer at Humanforce.",
 };
 

@@ -65,15 +65,15 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Emil Hansen.</span><br />
-        <span className="font-bold">I'm a{" "} software engineer with 8 years of experience.</span>
+        <span className="font-bold">Hello, I'm Vitalii Ovodenko. Please call me Vit.</span><br />
+        <span className="font-bold">I'm a{" "} software engineer with 7 years of experience.</span>
         {/* <span className="font-bold">software engineer</span> at{" "}
         <span className="font-bold">Humanforce</span> in Brisbane. I'm currently working with Laravel, React.js, GraphQL, and AWS. */}
       </motion.h1>
 
       <motion.div
         className="mt-16 mb-16 px-0 sm:px-4 text-xl font-medium !leading-[1.5] sm:text-xl text-white max-w-[50rem] mx-auto">
-        Please contact me at <u>emilhansen96@outlook.com</u>
+        Please contact me at <u>ovodenko521547@outlook.com</u>
       </motion.div>
 
       <motion.div

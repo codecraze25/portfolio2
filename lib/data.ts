@@ -8,6 +8,8 @@ import balitectureImg from '@/public/balitecture.png';
 import outwetImg from '@/public/outwet.png';
 import provisionImg from '@/public/provision.png';
 import oblistImg from '@/public/oblist.png';
+import royaImg from '@/public/roya.png';
+import nomadicImg from '@/public/nomadic.png';
 import columbiaImg from '@/public/columbia.png';
 import albertsonImg from '@/public/albertson.png';
 
@@ -50,19 +52,19 @@ export const links = [
 export const experiencesData = [
   {
     title: 'Senior Software Engineer',
-    location: 'Fortell.ai - Contract',
+    location: 'Roya.com, LLC - Contract',
     description:
       'Developed and maintained complex web components, presentations, landing pages, and email elements, utilizing advanced JavaScript, APIs, analytics tools, and automation processes, while also mentoring new developers and ensuring thorough project documentation.',
     icon: React.createElement(CgWorkAlt),
-    date: 'November 2024 - Current',
+    date: 'December 2024 - Current',
   },
   {
     title: 'Senior Full Stack Developer',
-    location: 'FARFETCH',
+    location: 'Nomadic Insights, LLC',
     description:
       'Developed and maintained web applications using React, Angular, and React Native, integrating third-party APIs, implementing state management (Redux, MobX), and optimizing performance. Built reusable UI components with modern tools (Tailwind CSS, Bootstrap), ensured secure authentication (OAuth 2.0, JWT), and managed databases (MySQL, MongoDB). Utilized AWS cloud services, CI/CD pipelines, and integrated payment gateways (PayPal, Stripe) and messaging services (Twilio, Sendgrid).',
     icon: React.createElement(CgWorkAlt),
-    date: 'March 2022 - April 2024',
+    date: 'March 2022 - November 2024',
   },
   {
     title: 'Senior Full Stack Developer',
@@ -84,23 +86,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'Scribble',
+    title: 'Roya.com',
     description:
-      'I built this project using React. Scribble Together offers a collaborative online whiteboard, ideal for remote tutoring, meetings, and shared note-taking. It supports handwriting, diagram drawing, PDF markup, and works well with iPads and Apple Pencils.',
-    tags: ['TypeScript', 'Tailwind CSS', 'React', 'Stripe'],
-    icons: [
-      'devicon:typescript',
-      'logos:react',
-      'devicon:tailwindcss',
-      'logos:stripe',
-    ],
-    imageUrl: scribbleImg,
-    urlLink: 'https://scribbletogether.com/',
-  },
-  {
-    title: 'FJALL RAVEN',
-    description:
-      'I built this project using React. Fjällräven is a Swedish outdoor brand known for its durable, functional, and eco-friendly products, including backpacks, clothing, and accessories. The company emphasizes sustainability, using materials like organic cotton and recycled polyester.',
+      'I’m building the Roya.com Marketing website using React for the frontend, Node.js for the backend, and deploying it on AWS to ensure scalability and performance.',
     tags: ['TypeScript', 'React', 'Node.js', 'AWS'],
     icons: [
       'logos:aws',
@@ -109,32 +97,8 @@ export const projectsData = [
       'logos:bootstrap',
       'logos:nodejs-icon',
     ],
-    imageUrl: fjallravenImg,
-    urlLink: 'https://www.fjallraven.com/us/en-us/',
-  },
-  {
-    title: 'Juiced Bikes',
-    description:
-      'I built this project using React. Hulk Cars offers car rental services, likely with a focus on integrating blockchain technology for vehicle tokenization. This approach may allow fractional ownership or secure transactions involving car assets.',
-    tags: ['TypeScript', 'React', 'Node.js', 'AWS'],
-    icons: ['logos:shopify'],
-    imageUrl: juicedbikesImg,
-    urlLink: 'https://www.juicedbikes.com/',
-  },
-  {
-    title: 'Hulk Cars',
-    description:
-      'I built this project using React. Hulk Cars offers car rental services, likely with a focus on integrating blockchain technology for vehicle tokenization. This approach may allow fractional ownership or secure transactions involving car assets.',
-    tags: ['TypeScript', 'React', 'Node.js', 'AWS'],
-    icons: [
-      'logos:aws',
-      'devicon:typescript',
-      'logos:react',
-      'logos:bootstrap',
-      'logos:nodejs-icon',
-    ],
-    imageUrl: hulkCars,
-    urlLink: 'https://hulkcars.com/',
+    imageUrl: royaImg,
+    urlLink: 'https://www.roya.com/',
   },
   {
     title: 'BALITECTURE',
@@ -151,6 +115,20 @@ export const projectsData = [
     urlLink: 'https://www.balitecturerealty.com/',
   },
   {
+    title: 'Nomadic',
+    description:
+      'I developed the Nomadic Recruitment website using Laravel for the backend and Vue.js for the frontend, creating a seamless survey platform for user interactions and data collection.',
+    tags: ['TypeScript', 'Tailwind CSS', 'React', 'Stripe'],
+    icons: [
+      'devicon:laravel',
+      'logos:vue',
+      'devicon:bootstrap',
+      'logos:google',
+    ],
+    imageUrl: nomadicImg,
+    urlLink: 'https://nomadicrecruitment.com/',
+  },
+  {
     title: 'OUTWET',
     description:
       'OutWet is an innovative online platform offering premium outdoor gear and apparel, designed to provide adventure enthusiasts with high-quality products for various outdoor activities.',
@@ -158,6 +136,36 @@ export const projectsData = [
     icons: ['devicon:javascript', 'logos:react', 'logos:nodejs-icon'],
     imageUrl: outwetImg,
     urlLink: 'https://www.outwet.it/',
+  },
+
+  {
+    title: 'FJALL RAVEN',
+    description:
+      'I built this project using React. Fjällräven is a Swedish outdoor brand known for its durable, functional, and eco-friendly products, including backpacks, clothing, and accessories. The company emphasizes sustainability, using materials like organic cotton and recycled polyester.',
+    tags: ['TypeScript', 'React', 'Node.js', 'AWS'],
+    icons: [
+      'logos:aws',
+      'devicon:typescript',
+      'logos:react',
+      'logos:bootstrap',
+      'logos:nodejs-icon',
+    ],
+    imageUrl: fjallravenImg,
+    urlLink: 'https://www.fjallraven.com/us/en-us/',
+  },
+  {
+    title: 'Scribble',
+    description:
+      'I built this project using React. Scribble Together offers a collaborative online whiteboard, ideal for remote tutoring, meetings, and shared note-taking. It supports handwriting, diagram drawing, PDF markup, and works well with iPads and Apple Pencils.',
+    tags: ['TypeScript', 'Tailwind CSS', 'React', 'Stripe'],
+    icons: [
+      'devicon:typescript',
+      'logos:react',
+      'devicon:tailwindcss',
+      'logos:stripe',
+    ],
+    imageUrl: scribbleImg,
+    urlLink: 'https://scribbletogether.com/',
   },
   // {
   //   title: 'PROVISIONS',
@@ -173,15 +181,15 @@ export const projectsData = [
   //   imageUrl: provisionImg,
   //   urlLink: 'https://esprovisions.com/',
   // },
-  {
-    title: 'Oblist',
-    description:
-      'Oblist is a streamlined online platform designed to help users easily create, share, and manage collaborative to-do lists and tasks, boosting productivity through simple, effective organization.',
-    tags: [],
-    icons: ['logos:shopify'],
-    imageUrl: oblistImg,
-    urlLink: 'https://oblist.com/',
-  },
+  // {
+  //   title: 'Oblist',
+  //   description:
+  //     'Oblist is a streamlined online platform designed to help users easily create, share, and manage collaborative to-do lists and tasks, boosting productivity through simple, effective organization.',
+  //   tags: [],
+  //   icons: ['logos:shopify'],
+  //   imageUrl: oblistImg,
+  //   urlLink: 'https://oblist.com/',
+  // },
 ] as const;
 
 export const skillsData = [
